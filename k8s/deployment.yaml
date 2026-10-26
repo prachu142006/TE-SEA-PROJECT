@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: devops-dashboard
-          image: YOUR_DOCKERHUB_USERNAME/devops-dashboard:latest
+          image: prachiti1208/devops-dashboard:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 80
